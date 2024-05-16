@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/5100921132464001344/A3A6995917F69B78D9CF69DB504E8329054B70BB/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-size: 10%;
+    color: white;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: lightcoral;
+    font-weight: bold;
+}
+
+a:hover {
+    position: relative;
+    color: red;
+    top: 1px;
+    text-shadow: 0 0 5px red;
+}
+
+.PC_icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border: 0px solid red;
+    border-radius: 15%;
+    top: 5px;
+}
+
+.PC {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    color: lightblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Mobile_icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border: 0px solid red;
+    border-radius: 15%;
+    top: 5px;
+}
+
+.gide {
+    position: relative;
+    bottom: 60px;
+}
+
+.PC_gide {
+    position: relative;
+    border: 5px dotted red;
+    border-radius: 30px;
+    top: 40px;
+    font-size: 20px;
+}
+
+.Mobile_gide {
+    position: relative;
+    top: 20px;
+    border: 5px dotted red;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.Mobile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: lightblue;
+    font-size: 40px;
+    top: 30px;
+}
+
+.success {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.kali {
+    color: royalblue;
+}
+
+.termux {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    background-color: #181818;
+    width: 100%;
+}
+
+.telegram_logo {
+    position: fixed;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 20px;
+}
+
+.nickname {
+    color: red;
+}
+
+.nickname:hover {
+    color: darkred;
+    text-shadow: 0 0 5px blue;
+}
